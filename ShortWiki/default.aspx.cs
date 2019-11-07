@@ -30,7 +30,8 @@ namespace ShortWiki
             "malus",
             "travis",
             "los",
-            "os"
+            "os",
+            "paris"
         };
 
         protected void Page_Load(object sender, EventArgs e)

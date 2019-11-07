@@ -94,8 +94,6 @@
   <ItemGroup>
     <Content Include="default.aspx" />
     <Content Include="styles\style.css" />
-    <Content Include="Test\XmlUpload.aspx" />
-    <Content Include="Test\Xxe.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -107,20 +105,6 @@
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Test\XmlUpload.aspx.cs">
-      <DependentUpon>XmlUpload.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Test\XmlUpload.aspx.designer.cs">
-      <DependentUpon>XmlUpload.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Test\Xxe.aspx.cs">
-      <DependentUpon>Xxe.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Test\Xxe.aspx.designer.cs">
-      <DependentUpon>Xxe.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="AjaxControlToolkit.config" />
